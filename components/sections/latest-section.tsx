@@ -26,7 +26,11 @@ export default function LatestSection() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-            <div className="w-full h-48 bg-blue-700" />
+            <img
+              src="./dallimg1.webp"
+              alt="Training"
+              className="w-full h-48 object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-bold text-blue-700 mb-2">Research Initiatives</h3>
               <p className="text-gray-700">Advancing knowledge on peace and security challenges globally.</p>
@@ -34,7 +38,11 @@ export default function LatestSection() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-            <div className="w-full h-48 bg-blue-700" />
+            <img
+              src="./dalimg.webp"
+              alt="Training"
+              className="w-full h-48 object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-bold text-blue-700 mb-2">Events & Conferences</h3>
               <p className="text-gray-700">Bringing together leaders and experts in global peace.</p>
